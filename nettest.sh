@@ -9,11 +9,6 @@ clear
 rm nettest.txt
 sleep 0.5
 printf "Please Wait."
-sleep 0.5
-printf "."
-sleep 0.5
-printf "."
-sleep 0.5
 check() {
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
 printf "Please Run This Script As Root.\n"
