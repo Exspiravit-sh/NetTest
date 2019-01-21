@@ -14,6 +14,15 @@ printf "."
 sleep 0.5
 printf "."
 sleep 0.5
+check() {
+if [[ $(/usr/bin/id -u) -ne 0 ]]; then
+printf "Please Run This Script As Root.\n"
+exit
+fi
+}
+logo() {
+cat logo.ascii
+}
 system() {
 printf "Linux Distro: "
 cat /etc/issue
@@ -67,7 +76,9 @@ port() {
 printf "Running Services:\n"
 sed '/# /d' nmap.txt | cut -d 'N' -f1 | cut -d 'H' -f1 | grep -a ' '
 }
+check
 get
+logo
 system
 ip
 location
