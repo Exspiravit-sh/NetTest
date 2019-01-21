@@ -1,0 +1,8 @@
+{
+   "YourFuckingIPAddress": "0.0.0.0",
+   "YourFuckingLocation": "Example",
+   "YourFuckingHostname": "example.com",
+   "YourFuckingISP": "Example",
+   "YourFuckingTorExit": "Example",
+   "YourFuckingCountryCode": "Example"
+}
