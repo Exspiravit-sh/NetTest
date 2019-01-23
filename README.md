@@ -7,5 +7,5 @@ sudo apt-get install nmap
 ```
 
 #### Donations:
-##PayPal:
+#PayPal:
 https://paypal.me/pools/c/8bB25QBenI
