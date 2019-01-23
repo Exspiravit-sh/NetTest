@@ -11,7 +11,8 @@ sleep 0.5
 printf "Please Wait."
 check() {
 if [[ $(/usr/bin/id -u) -ne 0 ]]; then
-printf "Please Run This Script As Root.\n"
+clear
+printf "\nPlease Run This Script As Root.\n"
 exit
 fi
 }
