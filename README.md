@@ -9,3 +9,4 @@ sudo apt-get install nmap
 #### Donations:
 #PayPal:
 https://paypal.me/pools/c/8bB25QBenI
+https://www.paypal.me/exspiravit
